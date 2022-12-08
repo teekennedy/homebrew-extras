@@ -2,6 +2,9 @@ class ColimaVz < Formula
   desc "Container runtimes on MacOS (and Linux) with minimal setup. Prelrelease version that uses the MacOS Virtualization framework v2."
   homepage "https://github.com/abiosoft/colima/blob/main/README.md"
   license "MIT"
+  url "https://github.com/abiosoft/colima.git",
+      tag: "412d01b467230181329bd339299435c36286da76"
+
   head "https://github.com/abiosoft/colima.git", branch: "support-vz"
   # This formula replaces the offical colima.
   conflicts_with "colima", because: "This formula installs colima from the support-vz branch."
