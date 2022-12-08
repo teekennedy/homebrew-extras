@@ -16,7 +16,7 @@ class ColimaVz < Formula
       -X #{project}/config.appVersion=#{version}
       -X #{project}/config.revision=#{Utils.git_head}
     ]
-    system "go", "build", *std_go_args(ldflags: ldflags), "./cmd/colima"
+    system "go", "build", *std_go_args(output: bin/"colima", ldflags: ldflags), "./cmd/colima"
 
     generate_completions_from_executable(bin/"colima", "completion")
   end
