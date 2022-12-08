@@ -1,4 +1,4 @@
-class Colima < Formula
+class ColimaVz < Formula
   desc "Container runtimes on MacOS (and Linux) with minimal setup. Prelrelease version that uses the MacOS Virtualization framework v2."
   homepage "https://github.com/abiosoft/colima/blob/main/README.md"
   license "MIT"
