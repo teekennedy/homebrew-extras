@@ -1,5 +1,5 @@
 cask "godot" do
-  version "4.0-rc1"
+  version "4.0-rc5"
 
   url "https://downloads.tuxfamily.org/godotengine/#{version.gsub(/-/, '/')}/Godot_v#{version}_macos.universal.zip",
       verified: "downloads.tuxfamily.org/godotengine/"
