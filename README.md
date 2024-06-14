@@ -9,9 +9,9 @@ Prerelease version of Godot based on the official cask. No checksum, and liveche
 
 Install: `brew install --cask teekennedy/extras/godot`
 
-## OrcaSlicer 2.0.0-rc
+## OrcaSlicer 2.1.0-beta
 
-Prerelease version of OrcaSlicer that has scarf seam support. Couldn't wait for it to be released as stable.
+Prerelease version of OrcaSlicer that has reduced purge support ported from bambuslicer. Couldn't wait for it to be released as stable.
 
 Added a checksum for arm.
 
